@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="container">
       <div className="row">
         <div className="center">
-          Crated by Nipuna | Powered by hpb.health.gov.lk
+          Crated by <b> Nipuna </b>| Powered by hpb.health.gov.lk
         </div>
       </div>
     </div>

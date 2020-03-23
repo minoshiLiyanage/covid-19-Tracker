@@ -1,7 +1,7 @@
 import React from "react";
 
 const StatCount = ({ data }) => { 
-    
+
     var pluralCorrection = 'deaths'
 
     if(data.local_deaths ===1){
@@ -63,15 +63,5 @@ const StatCount = ({ data }) => {
     </div>
   );
 };
-//<div className="card gradient-light-blue-cyan small">
-
-/**
- * "local_new_cases": 5,
-"local_total_cases": 90,
-"local_total_number_of_individuals_in_hospitals": 227,
-"local_deaths": 0,
-"local_new_deaths": 0,
-"local_recovered": 2,
- */
-
+ 
 export default StatCount;
