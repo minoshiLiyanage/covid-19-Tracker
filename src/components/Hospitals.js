@@ -4,6 +4,10 @@ const Hospitals = ({ data }) => {
     
   const hospitalList = data.length ? (
     data.map(hospital => {  
+      if(hospital.hospital.name_si ==='ශික්ෂණ රෝහල - කරපිටිය'){
+        hospital.hospital.name_si ='ශික්ෂණ රෝහල - කරාපිටිය'
+      }
+
       return (
         
       
