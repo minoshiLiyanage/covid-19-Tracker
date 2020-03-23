@@ -1,7 +1,20 @@
 import React from "react";
 
-const StatCount = ({ data }) => {
+const StatCount = ({ data }) => { 
     
+    var pluralCorrection = 'deaths'
+
+    if(data.local_deaths ===1){
+        pluralCorrection = 'death'
+
+    }
+
+
+    if(data.local_deaths === 0){
+        data.local_deaths = 'No'
+    }
+
+
   return (
     <div className="container">
     
@@ -40,7 +53,7 @@ const StatCount = ({ data }) => {
           <div className="card  cardStyle gradient-light-blue-cyan z-depth-2">
             <div className="card-content white-text">
               <span className="card-title">
-                There are {data.local_deaths} deaths  untill now
+                 {data.local_deaths} {pluralCorrection} reported untill now
               </span>
               <div className="cardContent"> </div>
             </div>
