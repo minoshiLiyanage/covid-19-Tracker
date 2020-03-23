@@ -8,6 +8,13 @@ const Hospitals = ({ data }) => {
         hospital.hospital.name_si ='ශික්ෂණ රෝහල - කරාපිටිය'
       }
 
+      if(hospital.hospital.name_si ==='ශික්ෂණ රෝහල - කුරුණගල'){
+        hospital.hospital.name_si ='ශික්ෂණ රෝහල - කුරුණෑගල'
+      }
+
+
+      ශික්ෂණ රෝහල - කුරුණගල
+
       return (
         
       
