@@ -5,6 +5,9 @@ const Hospitals = ({ data }) => {
   const hospitalList = data.length ? (
     data.map(hospital => {  
       return (
+        
+      
+
         <div className="col s12 m6 l4 " key={hospital.id}>
           <div className="card small cardStyle grey lighten-4 z-depth-2">
             <div className="card-content black-text">
@@ -33,6 +36,9 @@ const Hospitals = ({ data }) => {
 
   return (
     <div className="container">
+        <div className="center hospitalTitle">
+          Hospital status
+        </div> 
       <div className="row">{hospitalList}</div>
     </div>
   );

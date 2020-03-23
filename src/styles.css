@@ -43,3 +43,9 @@
 .dateText{
     padding-bottom: 5%;
 }
+
+.hospitalTitle{
+    padding-top: 5%;
+    font-size: 24px!important;
+    padding-bottom: 2%;
+}

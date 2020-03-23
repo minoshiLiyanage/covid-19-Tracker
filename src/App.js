@@ -54,6 +54,9 @@ class App extends Component {
 
 
       <StatCount data={this.state.cases}/>
+
+
+      
       <Hospitals data={this.state.hospitals}/>
       <Footer/>
     </div>
