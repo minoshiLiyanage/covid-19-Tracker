@@ -30,7 +30,7 @@ const StatCount = ({ data }) => {
                 are currently being treated at hospitals 
               </span>
               <div className="cardContent"> 
-                {data.local_recovered} patients are recovered by now 
+                {data.local_recovered} patients have recovered by now 
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ const StatCount = ({ data }) => {
           <div className="card  cardStyle gradient-light-blue-cyan z-depth-2">
             <div className="card-content white-text">
               <span className="card-title">
-                There are {data.local_deaths} deaths reported 
+                There are {data.local_deaths} deaths  untill now
               </span>
               <div className="cardContent"> </div>
             </div>
