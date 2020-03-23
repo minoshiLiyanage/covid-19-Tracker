@@ -12,8 +12,7 @@ const Hospitals = ({ data }) => {
         hospital.hospital.name_si ='ශික්ෂණ රෝහල - කුරුණෑගල'
       }
 
-
-      ශික්ෂණ රෝහල - කුරුණගල
+ 
 
       return (
         
