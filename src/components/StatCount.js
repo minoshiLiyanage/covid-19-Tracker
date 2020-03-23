@@ -53,7 +53,7 @@ const StatCount = ({ data }) => {
           <div className="card  cardStyle gradient-light-blue-cyan z-depth-2">
             <div className="card-content white-text">
               <span className="card-title">
-                 {data.local_deaths} {pluralCorrection} reported untill now
+                 {data.local_deaths} {pluralCorrection} reported until now
               </span>
               <div className="cardContent"> </div>
             </div>
