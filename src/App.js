@@ -5,6 +5,7 @@ import  './styles.css'
 //components 
 import Hospitals from './components/Hospitals';
 import StatCount from './components/StatCount';
+import Footer from './components/Footer';
 
 
 
@@ -54,6 +55,7 @@ class App extends Component {
 
       <StatCount data={this.state.cases}/>
       <Hospitals data={this.state.hospitals}/>
+      <Footer/>
     </div>
   );
 
