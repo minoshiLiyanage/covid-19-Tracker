@@ -1,0 +1,45 @@
+.gradient-light-blue-cyan {
+    background: -webkit-linear-gradient(45deg,#0288d1,#26c6da)!important;
+    background: linear-gradient(45deg,#0288d1,#26c6da)!important;
+    box-shadow: 0 6px 20px 0 rgba(38,198,218,.5)!important;
+    border-radius: 10px;
+    height:200px!important;
+}
+
+
+.gradient-red-pink {
+    background: -webkit-linear-gradient(45deg,#ff5252,#f48fb1)!important;
+    background: linear-gradient(45deg,#ff5252,#f48fb1)!important;
+    box-shadow: 0 6px 20px 0 rgba(244,143,177,.5)!important;
+    border-radius: 10px;
+    height:200px!important;
+}
+
+
+
+.gradient-amber-amber {
+    background: -webkit-linear-gradient(45deg,#ff6f00,#ffca28)!important;
+    background: linear-gradient(45deg,#ff6f00,#ffca28)!important;
+    box-shadow: 0 6px 20px 0 rgba(255,202,40,.5)!important;
+    border-radius: 10px;
+    height:200px!important;
+}
+
+.gradient-green-teal {
+    background: -webkit-linear-gradient(45deg,#43a047,#1de9b6)!important;
+    background: linear-gradient(45deg,#43a047,#1de9b6)!important;
+    box-shadow: 0 6px 20px 0 rgba(29,233,182,.5)!important;
+    border-radius: 10px;
+    height:200px!important;
+}
+
+.mainTitle{
+    margin-top: 10%;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.dateText{
+    padding-bottom: 5%;
+}
