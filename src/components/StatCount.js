@@ -45,6 +45,9 @@ const StatCount = ({ data }) => {
               <div className="cardContent"> 
                 {data.local_recovered} patients have recovered by now 
               </div>
+              <div className="cardContent"> 
+                {data.global_recovered} patients have recovered by now 
+              </div>
             </div>
           </div>
         </div>
